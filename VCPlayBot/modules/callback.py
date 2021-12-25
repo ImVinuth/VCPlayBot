@@ -30,7 +30,7 @@ async def cbstart(_, query: CallbackQuery):
                          "📚 Commands", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 Donate", url=f"https://t.me/{OWNER_NAME}")
+                        "❤️ Donate", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
                         "👥 Official Group", url=f"https://t.me/{SUPPORT_GROUP}"
@@ -39,7 +39,7 @@ async def cbstart(_, query: CallbackQuery):
                         "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/QuennArzoo/VCPlayBot"
+                        "🙋‍♀ Entertainment Channel", url="https://t.me/musicszc"
                     )
                 ]
             ]
@@ -228,7 +228,7 @@ async def cbowner(_, query: CallbackQuery):
 
 📝 note: all commands owned by this bot can be executed by the owner of the bot without any exceptions.
 
-⚡ __Powered by {BOT_NAME} A.I__""",
+⚡ __Powered by {BOT_NAME} _""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -252,7 +252,7 @@ async def cbfun(_, query: CallbackQuery):
 /truth - check it by yourself
 /dare - check it by yourself
 
-⚡ __Powered by {BOT_NAME} A.I__""",
+⚡ __Powered by {BOT_NAME} """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -275,7 +275,7 @@ async def cbguide(_, query: CallbackQuery):
 3.) add @{ASSISTANT_NAME} to your group or type /userbotjoin to invite her.
 4.) turn on the voice chat first before start to play music.
 
-⚡ __Powered by {BOT_NAME} A.I__""",
+⚡ __Powered by {BOT_NAME} """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
